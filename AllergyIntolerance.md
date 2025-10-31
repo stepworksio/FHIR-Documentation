@@ -20,6 +20,7 @@ Substances include, but are not limited to: a therapeutic substance administered
 | Old Name    | New Name         | Old Type       | New Type                                              | Nullable | Default                 |
 | ----------- | ---------------- | -------------- | ----------------------------------------------------- | -------- | ----------------------- |
 | `id`        |                  | `int(11)`      | `cuid`                                                | No       |                         |
+|             | `legacy_id`      | `int`          |                                                       | Yes      | `NULL`                  |
 | `created`   | `created_at`     | `datetime`     |                                                       | No       |                         |
 | `modified`  | `updated_at`     | `datetime`     |                                                       | No       |                         |
 | `active`    |                  | `tinyint(1)`   | `boolean`                                             | No       | `true`                  |
