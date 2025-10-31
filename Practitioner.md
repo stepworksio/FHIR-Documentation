@@ -30,6 +30,7 @@ The Practitioner resource is used for anyone involved in the provision of care o
 | Old Column    | New Column   | Old Type   | New Type         | Nullable | Default |
 | ------------- | ------------ | ---------- | ---------------- | -------- | ------- |
 | `id`          |              | `int`      | `cuid`           | No       |         |
+|               | `legacy_id`  | `int`      |                  | Yes      | `NULL`  |
 | `created`     | `created_at` | `datetime` |                  | No       |         |
 | `modified`    | `updated_at` | `datetime` |                  | No       |         |
 | `active`      |              | `tinyint`  | `boolean`        | No       | `true`  |

@@ -16,6 +16,7 @@ This resource may be used in a shared registry of contact and other information 
 | Old Column    | New Column   | Old Type   | New Type                                                                                             | Nullable | Default |
 | ------------- | ------------ | ---------- | ---------------------------------------------------------------------------------------------------- | -------- | ------- |
 | `id`          |              | `int`      | `cuid`                                                                                               | No       |         |
+|               | `legacy_id`  | `int`      |                                                                                                      | Yes      | `NULL`  |
 | `created`     | `created_at` | `datetime` |                                                                                                      | No       |         |
 | `modified`    | `updated_at` | `datetime` |                                                                                                      | No       |         |
 | `active`      |              | `tinyint`  | `boolean`                                                                                            | No       | `true`  |
